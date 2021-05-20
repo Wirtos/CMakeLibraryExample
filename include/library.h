@@ -1,0 +1,7 @@
+#ifndef CMAKELIBRARYEXAMPLE_LIBRARY_H
+#define CMAKELIBRARYEXAMPLE_LIBRARY_H
+#include <libexample_export.h>
+
+LIBEXAMPLE_EXPORT int add(int a, int b);
+
+#endif /* CMAKELIBRARYEXAMPLE_LIBRARY_H */
